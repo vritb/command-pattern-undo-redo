@@ -31,6 +31,14 @@ Therefore a _handler_ has to be provided to the _UndoManager_. The handler can b
 The _handler_ (interface <code>UndoStateHandler</code>) has one method <code>processStateChange(oldState, newState)</code>. 
 The handler must be provided by application to react on changes in the _UndoManager_.
 
+## New Artifacts
+
+* <code>_interface_ UndoStateHandler</code><br/>
+    - Used to communicate state changes into the application.
+
+* <code>class UndoManagerState</code><br/>
+    - Used to store UndoManager state information.
+
 
 
 ### Removals
@@ -50,6 +58,7 @@ The handler must be provided by application to react on changes in the _UndoMana
     Makes usage more evident
 * `MyButton` to `AppButton`<br/>
     Make usage more evient
+* `class State` to `class UndoManagerState`
 
 
 ### Ideas
