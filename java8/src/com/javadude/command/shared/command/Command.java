@@ -1,4 +1,4 @@
-package com.javadude.command.shared;
+package com.javadude.command.shared.command;
 
 public interface Command {
 	void execute();

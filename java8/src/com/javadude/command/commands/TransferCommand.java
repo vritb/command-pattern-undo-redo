@@ -1,7 +1,7 @@
 package com.javadude.command.commands;
 
-import com.javadude.command.shared.Command;
 import com.javadude.command.domain.Account;
+import com.javadude.command.shared.command.Command;
 
 public class TransferCommand implements Command {
 	private Account from;

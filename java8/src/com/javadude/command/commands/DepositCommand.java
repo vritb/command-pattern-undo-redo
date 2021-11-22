@@ -1,7 +1,7 @@
 package com.javadude.command.commands;
 
 import com.javadude.command.domain.Account;
-import com.javadude.command.shared.Command;
+import com.javadude.command.shared.command.Command;
 
 public class DepositCommand implements Command {
 	private Account account;
@@ -34,7 +34,7 @@ public class DepositCommand implements Command {
 
 	@Override
 	public boolean isCollapsible(Command command) {
-		return command.getClass() == DepositCommand.class;
+		return false && command.getClass() == DepositCommand.class;
 	}
 
 	@Override

@@ -4,10 +4,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import com.javadude.command.domain.Account;
+import com.javadude.command.shared.command.CompositeCommand;
+import com.javadude.command.shared.undo.UndoManager;
 import com.javadude.command.commands.DepositCommand;
 import com.javadude.command.commands.WithdrawCommand;
-import com.javadude.command.shared.CompositeCommand;
-import com.javadude.command.UndoManager;
 
 public class TransferAction implements ActionListener {
 	private Account from;
