@@ -1,7 +1,6 @@
 package com.javadude.command.shared.undo;
 
 import java.util.Stack;
-import java.util.List;
 
 import com.javadude.command.shared.command.Command;
 

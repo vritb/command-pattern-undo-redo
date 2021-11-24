@@ -14,7 +14,6 @@ import javax.swing.WindowConstants;
 
 import com.javadude.command.domain.Account;
 import com.javadude.command.presentation.actions.*;
-import com.javadude.command.shared.command.Command;
 import com.javadude.command.shared.undo.UndoManager;
 import com.javadude.command.shared.undo.UndoManagerState;
 import com.javadude.command.shared.undo.UndoStateHandler;

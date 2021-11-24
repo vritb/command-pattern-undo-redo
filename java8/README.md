@@ -51,14 +51,13 @@ The handler must be provided by application to react on changes in the _UndoMana
 * `Sample.java` to `Application.java`<br/>
     Makes usage more evident.
 * `isUndoAvailable()` to `canUndo()`<br/>
-    Shorter name
+    Shorter and more concise name
 * `isRedoAvailable()` to `canRedo()`<br/>
-    Shorter name
-* `OldState` to `State`<br/>
+    Shorter and more concise name
+* `OldState` to `UndoManagerState`<br/>
     Makes usage more evident
 * `MyButton` to `AppButton`<br/>
-    Make usage more evient
-* `class State` to `class UndoManagerState`
+    Make usage more evident
 
 
 ### Ideas
