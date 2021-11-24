@@ -1,4 +1,4 @@
-# Design Patterns Command Undo Redo
+# Design Pattern _Command_ In Undo-Redo-Demo
 
 Was derived from work of <a href="http://javadude.com">*javadude*</a>.
 You find the original projet at https://github.com/javadude/patterns.session4.git).
